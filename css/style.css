@@ -1,0 +1,314 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222222 ;
+    font-family: Verdana, sans-serif;
+}
+.site-header .container
+{
+    padding-top: 50px;
+    padding-bottom: 220px;
+    color: #ffffff;
+    background-color: #222222;
+    background-image: url(../img/moon-rocket.png);
+    background-repeat: no-repeat;
+    background-position: 500px 100px; 
+  
+}
+.contacts-menu{
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+.main-nav{
+    display: flex;
+    margin-bottom: 95px;
+}
+.logo{
+    padding: 0px;
+    margin-right: 60px;
+}
+.site-menu{
+    margin-top: 25px;
+    display: flex;
+    width: 660px;
+    padding: 0px;
+    list-style: none;
+}
+.site-menu a {
+    display: block;
+    margin-right: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #d4d4d4;
+}
+}
+.icon-phone{
+    background-image: url(../IMG/phone-icon.png)
+    background-repeat: no-repeat;
+}
+.icon-mail{ 
+    background-image: url(../IMG/mail-icon.png)
+    background-repeat: no-repeat;
+}
+.about-us{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+    padding-left: 120px;
+    margin-right: auto;
+}
+.rocket{
+    margin-right: 25px;
+}
+.about-us .h1{
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 60px;
+    line-height: 50px;
+}
+.about-us .p{
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+.btn{
+    display: inline-block;
+    width: 195px;
+    padding: 0 25px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    color: #222222;
+    border: none;
+    border-radius: 50px;
+    background-color: yellow;
+    transition: 0.25s;
+
+}
+.btn::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    width: 19px;
+    height: 16px;
+    background-image: url(../img/right-arrow-dark.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.features{
+    background-color: #0E0D0B;
+    display: flex;
+    padding: 90px 0 ;
+    
+}
+.feature-made-in-russia
+{
+    background-image: url(../IMG/advantage-icon-1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.feature-food{
+    background-image: url(../IMG/advantage-icon-2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.feature-pilots{
+    background-image: url(../IMG/advantage-icon-3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.feature-moon-rover{
+    background-image: url(../IMG/advantage-icon-4.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.features-list
+{ 
+    display: flex;
+    color:aliceblue;
+    list-style: none;
+    margin-right: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+.features-list li{
+    margin-right: 80px;
+    font-size: 14px;
+    padding-top: 80px;
+}
+.lead{
+    font-family: "Courier New", monospace;
+    font-size: 25px
+}
+.columns-container {
+    display: flex;}
+.moon-vacation {
+    background-color: aliceblue;
+    padding-top: 80px;
+    padding-bottom: 45px;}
+.columns-container .left-column {
+    width: 440px;
+    margin-right: 80px;
+}
+.columns-container .right-column {
+    width: 440px;
+}
+.visually-hidden
+{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+}
+.site-footer
+{
+    background-color: #0E0D0B;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: grey;
+    
+}
+.company-title
+{
+    position: relative;
+    top: -18px;
+    right: 35px;
+    color: whitesmoke;
+    
+
+}
+.footer-columns-container {
+    display: flex;
+    
+}
+.footer-menu{
+    margin-left: -100px;
+    list-style:none; 
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+.footer-submenu-title1{
+    height: 30px;
+    width: 100px;
+    position: relative;
+    right:-100px;
+    top: 27px;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    color: #d4d4d4;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+.footer-submenu1 {
+    position: relative;
+    top: 110px;
+    right: 35px;
+    line-height: 50px;
+}
+.footer-submenu1 a {
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+.footer-submenu1 li {
+    list-style: none;
+}
+.footer-submenu-title2{
+    height: 30px;
+    position: relative;
+    right:-400px;
+    top:-123px;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    color: #d4d4d4;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+.footer-submenu2 {
+    position: relative;
+    top: -37px;
+    right: -282px;
+    line-height: 50px;
+}
+.footer-submenu2 a {
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+.footer-submenu2 li {
+    list-style: none;
+}
+.footer-submenu-title3{
+    height: 30px;
+    position: relative;
+    right:-700px;
+    top:-273px;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    color: #d4d4d4;
+    padding-bottom: 32px;
+    border-bottom: 1px solid grey;
+}
+.footer-submenu3 {
+    position: relative;
+    top: -207px;
+    right: -659px;
+    line-height: 50px;
+}
+.footer-submenu3 a {
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+.footer-submenu3 li {
+    list-style: none;
+}
+.recommendations{
+    background-color: aliceblue;
+}
+.recommendations-list li
+{
+    list-style: none;
+    margin-bottom: 30px
+}
+.recommendations-list li:before {
+    color: #FFD700; 
+    content: "•"; 
+    margin-right: 10px; 
+    font-size: 21px;
+   }
+.copyrights{
+    margin-top: 150px;
+}
+.footer-sub
+{
+    display: flex;
+    margin-right: 100px;
+    margin-right: -100px
+    
+}
+.rocket{
+margin-left: 500px;
+margin-right: 100px;
+margin-top: -300px;
+}
+.btn:hover{
+    background-color: aliceblue;
+    
+}
+
